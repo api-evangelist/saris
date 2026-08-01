@@ -1,7 +1,26 @@
 aid: saris
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saris.png
 name: Saris
-description: Saris is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Saris (saris.ai) is an enterprise AI company building AI workflow agents
+  for banks and credit unions. Its platform automates multi-step back-office processes
+  across lending, compliance, and operations — document processing, data validation,
+  core-system updates, and compliance tracking — while keeping humans in control with
+  full audit trails. Saris integrates with financial-technology platforms such as
+  Fiserv and with model providers including OpenAI and Anthropic, and is a recommended
+  CCUA partner for Northeast credit unions. The company raised a $28.8M Series A and
+  is backed by 8vc. As of this enrichment pass Saris exposes no public API, developer
+  portal, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/saris/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Financial Services
+- Banking
+- Credit Unions
+- Workflow Automation
+- AI Agents
+- Fintech
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,12 @@ maintainers:
 common:
 - type: Website
   url: https://saris.ai
+- type: Blog
+  url: https://saris.ai/blog
+- type: DomainSecurity
+  url: security/saris-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
