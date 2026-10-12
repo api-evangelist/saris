@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/saris/integrations
+- https://n8n.io/integrations/saris/
+- https://composio.dev/toolkits/saris
+- https://monid.ai/tools/saris
+checked:
+- https://composio.dev/toolkits/saris
+- https://monid.ai/tools/saris
+- https://n8n.io/integrations/saris/
+- https://zapier.com/apps/saris/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
